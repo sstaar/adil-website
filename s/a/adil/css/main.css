@@ -5129,3 +5129,11 @@ img {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+	.partner-logo-container {
+		flex-direction: column;
+		gap: 64px;
+		/* Change flex direction to column on mobile */
+	}
+}
